@@ -1,0 +1,15 @@
+.normalClass {
+  background-color: palevioletred;
+}
+.coolerClass {
+  font-size: 30px;
+}
+#bigBoyID {
+  color: blue;
+  font-size: 35px;
+}
+#boldBoyID {
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightgreen;
+}
