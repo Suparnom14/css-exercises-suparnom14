@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+div {
+  border: 2px solid black;
+}
+
+.containerMedium {
+  display: flex;
+  height: 140px;
+}
+.containerMedium.one {
+  height: 50px;
+  align-items: center;
+  padding: 10px 210px;
+  font-size: 18px;
+  color: #e5e7eb;
+  background-color: #1f2937;
+}
+.headerlink.right {
+  display: flex;
+  justify-content: flex-end;
+}
+.containerMedium.one div {
+  flex: 1;
+}
+
+#headerlogo {
+  flex: 4;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+/* very next piece should be deleted later */
+.containerMedium.one div,
+.containerMedium.one,
+.containerMedium.two,
+.containerMedium.two div {
+  border: 0;
+}
+.containerMedium.two {
+  padding: 110px 210px;
+  height: 220px;
+  background-color: #1f2937;
+}
+.containerMedium.two div {
+  flex: 1;
+}
+#headline {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+#subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+#upperButton button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  line-height: 1.8;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 3px 30px;
+  margin-top: 5px;
+  border-radius: 2mm;
+  border: #1f2937;
+}
+.containerSmallOne {
+  padding-right: 75px;
+}
+
+.containerSmallTwo {
+  display: flex;
+  background-color: #a0a2a5;
+  color: #f9faf8;
+  justify-content: center;
+  align-items: center;
+}
